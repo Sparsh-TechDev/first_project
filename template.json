@@ -1,0 +1,9 @@
+{
+  "_type": "prompt",
+  "input_variables": [
+    "paper_input",
+    "style_input",
+    "length_input"
+  ],
+  "template": "You are an AI research assistant.\n\nExplain the research paper '{paper_input}' in a {style_input} style.\n\nThe explanation length should be {length_input}.\n\nInclude:\n1. Main idea of the paper\n2. Key contributions\n3. How it works\n4. Applications\n5. Important limitations\n\nProvide a clear and structured explanation."
+}
